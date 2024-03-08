@@ -9,7 +9,6 @@
     padding: 24px;
     display: flex;
     gap: 16px;
-
     background: #008b5d;
     border-radius: 8px;
 
@@ -21,7 +20,7 @@
       margin-bottom: 4px;
     }
     .description {
-      //font-family: Gilroy-Light;
+      font-family: Gilroy-Light;
       font-size: 15px;
       line-height: 22px;
       color: #ffffff;
@@ -59,16 +58,23 @@
           color: #595964;
         }
         .MuiInputLabel-root {
-          font-family: Gilroy-SemiBold;
-          font-size: 11px;
-          line-height: 14px;
-          color: #4c4c55;
+          top: -4px;
+          &.MuiInputLabel-shrink {
+            font-family: Gilroy-SemiBold;
+            font-size: 12px;
+            line-height: 22px;
+            color: #4c4c55;
+            top: 1px;
+          }
+        }
+        .MuiOutlinedInput-notchedOutline legend {
+          font-size: 9px;
         }
       }
     }
   }
   .link-text {
-    //font-family: Gilroy-Medium;
+    font-family: Gilroy-Medium;
     color: #1688fe;
   }
   .email-notifications {
@@ -93,7 +99,7 @@
       color: #000000;
     }
     .action-btn {
-      font-family: "Gilroy-SemiBold";
+      font-family: Gilroy-SemiBold;
       font-size: 15px;
       line-height: 22px;
       color: #f25773;
