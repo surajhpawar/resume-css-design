@@ -1,0 +1,157 @@
+.main-view {
+  padding: 32px 80px;
+  margin: 0 auto;
+  width: min(100%, 800px);
+  height: calc(100vh - 48px);
+  overflow-y: auto;
+
+  .premium-notification {
+    padding: 24px;
+    display: flex;
+    gap: 16px;
+
+    background: #008b5d;
+    border-radius: 8px;
+
+    .title {
+      font-family: Gilroy-Semibold;
+      font-size: 24px;
+      line-height: 30px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+    .description {
+      //font-family: Gilroy-Light;
+      font-size: 15px;
+      line-height: 22px;
+      color: #ffffff;
+    }
+  }
+  .account-information__title {
+    margin: 32px 0 16px 0;
+  }
+  .form-container {
+    margin-bottom: 32px;
+    .form-action {
+      margin-top: 16px;
+    }
+  }
+  .personal-information {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+
+    &__form {
+      width: 100%;
+      .input-row {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 16px;
+
+        .input-field {
+          flex-basis: 50%;
+          flex-grow: 1;
+        }
+        .MuiInputBase-root {
+          height: 48px;
+        }
+        .MuiInputBase-input {
+          color: #595964;
+        }
+        .MuiInputLabel-root {
+          font-family: Gilroy-SemiBold;
+          font-size: 11px;
+          line-height: 14px;
+          color: #4c4c55;
+        }
+      }
+    }
+  }
+  .link-text {
+    //font-family: Gilroy-Medium;
+    color: #1688fe;
+  }
+  .email-notifications {
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4c4c55;
+  }
+  .delete-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    margin: 32px 0;
+    border: 1px solid #e3e3e4;
+    border-radius: 8px;
+
+    .headline {
+      font-family: Gilroy-SemiBold;
+      font-size: 17px;
+      line-height: 24px;
+      color: #000000;
+    }
+    .action-btn {
+      font-family: "Gilroy-SemiBold";
+      font-size: 15px;
+      line-height: 22px;
+      color: #f25773;
+      padding: 0;
+      text-transform: none;
+      width: fit-content;
+    }
+  }
+
+  .privacy-policy {
+    font-family: Gilroy-Medium;
+    font-size: 13px;
+  }
+  .support-panel {
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+
+    .get-in-touch-message {
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e3e3e4;
+    }
+    .support-links {
+      display: flex;
+      gap: 32px;
+      margin-top: 16px;
+      .link {
+        font-size: 14px;
+        line-height: 22px;
+        color: #595964;
+      }
+    }
+  }
+}
+
+.checkbox {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.privacy-policy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 24px 0 0;
+  box-sizing: border-box;
+  gap: 0 8px;
+  max-width: 100%;
+}
+.delete-account {
+  width: 141px;
+  line-height: 24px;
+}
+.confirmation-prompt {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
